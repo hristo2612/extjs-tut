@@ -1,0 +1,20 @@
+{
+  "name": "extjs-tut",
+  "version": "1.0.0",
+  "description": "Teaching my self the ins and outs of ExtJS",
+  "main": "index.js",
+  "scripts": {
+    "build": "browserify index.js -o app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hristo2612/extjs-tut.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hristo2612/extjs-tut/issues"
+  },
+  "homepage": "https://github.com/hristo2612/extjs-tut#readme"
+}
