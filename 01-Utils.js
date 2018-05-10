@@ -1,14 +1,9 @@
-/*
- * This call registers your application to be launched when the browser is ready.
- */
-Ext.application({
-    name: 'Extjs.tut',
+var updateConsole = function() {
+    console.log(Ext.Date.format(new Date(), 'g:i:s A'));
+};
 
-    requires: [
-        'Ext.MessageBox'
-    ],
-
-    launch: function () {
-        Ext.Msg.alert('Hello Ext JS', 'Hello! Welcome to Ext JS.');
-    }
-});
+var runner = new Ext.util.TaskRunner();
+var task = runner.start({
+    run: updateConsole,
+    interval: 1000
+})
