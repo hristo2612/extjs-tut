@@ -1,1 +1,1 @@
-require('./04-Adding-a-Component');
+require('./05-Introducing-Alias-Type');
