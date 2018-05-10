@@ -1,1 +1,1 @@
-require('./03-Base-ExtJS-App');
+require('./04-Adding-a-Component');
