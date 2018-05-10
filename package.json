@@ -4,7 +4,9 @@
   "description": "Teaching my self the ins and outs of ExtJS",
   "main": "index.js",
   "scripts": {
-    "build": "browserify index.js -o app.js"
+    "build": "browserify index.js -o app.js",
+    "start": "sencha app watch",
+    "restart": "npm run build && npm run start"
   },
   "repository": {
     "type": "git",
